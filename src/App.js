@@ -9,7 +9,7 @@ function App() {
       width: '100%',
       height: '100%',
     }}>
-      <h1 className="text-center">Hello. Showing my content (experimental)</h1>
+      
       <Content />
     </div>
   );
