@@ -4,7 +4,36 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    background-color: white;
+}
+img {
+    
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-width: 0px;
+    box-shadow: 0 0 15px #3939fa;
+    
+}
+h1 {
+    padding-top: 15px;
 }
 .main {
     background-color: black;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }

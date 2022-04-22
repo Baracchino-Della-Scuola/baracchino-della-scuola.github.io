@@ -1,9 +1,10 @@
 import './tailwind.css'
-import './socialicons.scss'
+import './socialicons.css'
+
 
 function SocialIcon(props) {
     return (
-        <a href={props.href} className={props.Classes}>{props.icon}</a>
+        <a href={props.href} className={props.classes}>{ props.icon }</a>
     );
 }
 
