@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "eslint .",
     "eject": "react-scripts eject",
     "show": "tailwind-config-viewer -o"
   },
