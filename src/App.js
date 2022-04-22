@@ -11,6 +11,7 @@ function App() {
     }}>
       
       <Content />
+      <footer>Made with lots of ☕ by <a href="https://patreon.com/StarNumber12046">StarNumber12046</a> absolutely not at 🏫</footer>
     </div>
   );
 }
