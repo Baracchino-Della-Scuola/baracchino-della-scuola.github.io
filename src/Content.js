@@ -2,7 +2,7 @@ import './Content.css';
 import './tailwind.css'
 import SocialIcon from './SocialIcons.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 
 function Content() {
