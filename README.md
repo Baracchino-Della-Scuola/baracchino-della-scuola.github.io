@@ -1,4 +1,5 @@
 # Baracchino della scuola - Sito ufficiale
+[![Netlify Status](https://api.netlify.com/api/v1/badges/505f2445-a95b-49fc-a24e-11443fe74855/deploy-status)](https://app.netlify.com/sites/baracchinosc/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
