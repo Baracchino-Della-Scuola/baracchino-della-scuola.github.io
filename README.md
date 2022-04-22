@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Baracchino della scuola - Sito ufficiale
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
