@@ -15,4 +15,4 @@ THere are some scripts with `npm run` you can use:
 # Installing
 Just clone the repo and run `npm i` then start it like above (`npm start` or `npm run start`)
 # Deploy
-I personally use [Netlify](https://netlify.com) but you can use a webserver of your own, [Vercel](https://vercel.com) or [Firebase from Google](https://firebase.google.com/). There are some other alternatives but I tried these.
+I personally use [Netlify](https://netlify.com) but you can use a webserver of your own, [Vercel](https://vercel.com), [GH Pages](https://pages.github.com/) or [Firebase from Google](https://firebase.google.com/). There are some other alternatives but I tried these.
