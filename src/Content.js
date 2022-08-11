@@ -9,10 +9,10 @@ function Content() {
     
     return (
         <div className="main ">
-            <div className="container mx-auto px-4 ">
+            <div className="container px-4 mx-auto ">
                 
-                <div className="baracchino round-200 pb-10 pt-10 pr-20 pl-20 rounded-lg ">
-                    <img src="https://cdn.discordapp.com/icons/838727867428765766/7cf87bc0938e38a5298c1caa32cfbb95.png?width=75" alt="" className="rounded-full items-center justify-center place-self-center"></img>
+                <div className="pt-10 pb-10 pl-20 pr-20 rounded-lg baracchino round-200 ">
+                    <img src="https://cdn.discordapp.com/icons/838727867428765766/7cf87bc0938e38a5298c1caa32cfbb95.png?width=75" alt="" className="items-center justify-center rounded-full place-self-center"></img>
                     <h1 className="text-xl ">Baracchino della scuola</h1>
                     <p className="">Turning the school into a better place.</p>
                     
@@ -23,7 +23,7 @@ function Content() {
                     <SocialIcon href="https://t.me/baracchinosc" classes="social-icon hover:text-sky-600" icon={<FontAwesomeIcon icon={brands('telegram')} />} />
                     <SocialIcon href="https://www.reddit.com/r/baracchinodellascuola" classes="social-icon hover:text-orange-600" icon={<FontAwesomeIcon icon={brands('reddit')} />} />
                     
-                    
+                    <h1>Click <a href="/funny.png">here</a> for the funny</h1>
                 </div>
             </div>
         </div>
