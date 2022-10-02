@@ -1,18 +1,46 @@
-# Baracchino della scuola - Sito ufficiale
-[![Netlify Status](https://api.netlify.com/api/v1/badges/505f2445-a95b-49fc-a24e-11443fe74855/deploy-status)](https://app.netlify.com/sites/baracchinosc/deploys) [![ESLint](https://github.com/Baracchino-Della-Scuola/baracchino-della-scuola.github.io/actions/workflows/eslint.yml/badge.svg?branch=react_rewrite)](https://github.com/Baracchino-Della-Scuola/baracchino-della-scuola.github.io/actions/workflows/eslint.yml)
+# .
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This template should help get you started developing with Vue 3 in Vite.
 
-# Development
-To develop edit files in src/*
-## Scripts
-THere are some scripts with `npm run` you can use:
-- `npm run start` : start the dev server
-- `npm run build` : compile the project with webpack
-- `npm run test` : run eslint for linting
-- `npm run eject` : eject the runner (irreversible action)
-- `npm run show` : start the tailwindcss config viewer
-# Installing
-Just clone the repo and run `npm i` then start it like above (`npm start` or `npm run start`)
-# Deploy
-I personally use [Netlify](https://netlify.com) but you can use a webserver of your own, [Vercel](https://vercel.com), [GH Pages](https://pages.github.com/) or [Firebase from Google](https://firebase.google.com/). There are some other alternatives but I tried these.
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Type Support for `.vue` Imports in TS
+
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+
+1. Disable the built-in TypeScript Extension
+    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
